@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Add Dependant";
+}
+<div class="view_home container" data-load-event="a.loadAddDependantView">
+    <h1 class="page_title">@ViewBag.Title</h1>
+    <div class="centered">
+        <div class="form_container">
+            <input class="form-control-lg add_dep_input add_dep_fname" placeholder="First Name" /><br>
+            <input class="form-control-lg add_dep_input add_dep_lname" placeholder="Last Name" /><br>
+            <input class="form-control-lg add_dep_input add_dep_email" placeholder="Email" /><br>
+            <input class="form-control-lg add_dep_input add_dep_phone" placeholder="Phone" /><br>
+            <input class="form-control-lg add_dep_input add_dep_ssn" placeholder="SSN" /><br>
+            <input class="form-control-lg add_dep_input add_dep_address1" placeholder="Address" /><br>
+            <input class="form-control-lg add_dep_input add_dep_address2" /><br>
+            <input class="form-control-lg add_dep_input add_dep_addresscity" placeholder="City" /><br>
+            <input class="form-control-lg add_dep_input add_dep_addressstate" placeholder="State" /><br>
+            <input class="form-control-lg add_dep_input add_dep_addresszip" placeholder="Zip" /><br>
+            <label><input type="checkbox" class="form-control-lg add_dep_input add_dep_spouse" id="isspouse"/>Is spouse</label>
+            <button class="btn btn-lg btn-success fa fa-save" data-click-event="a.saveDependant"></button>
+        </div>
+    </div>
+</div>
